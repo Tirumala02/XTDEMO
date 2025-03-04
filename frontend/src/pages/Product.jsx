@@ -55,7 +55,7 @@ const Product = () => {
           {/* Description in Points Format */}
           <div className='mt-5 text-gray-600'>
             <ul className='list-inside'>
-              <li>Product Category: {productData.category}</li>
+              {/* <li>Product Category: {productData.category}</li> */}
               {/* <li>Shipping: Free worldwide shipping available.</li>
               <li>Returns: 7-day easy return policy.</li> */}
             </ul>
